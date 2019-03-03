@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+/*見やすいフォントに変更 Noto Sans JP,Lato 読み込まなかった時のフォントも指定*/
+
+/*テキストの装飾をしない*/
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  width:100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url("images/log.jpg");
+  background-size: cover;
+  color: #FF3366;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 3px
+}
+
+span {
+  font-weight: bolder;
+  letter-spacing: 2px
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.7;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn-wrapper {
+  margin: 20px;
+}
+
+.btn-wrapper p {
+  margin: 10px;
+}
+
+.fab {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  margin-top:15px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right :hover {
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #FF3366;
+  display: block;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #000011;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+  height: 336px;
+}
+
+.lesson-icon > img {
+  object-fit: cover;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+}
+
+.txt-contents {
+ width: 80%;
+ display: inline-block;
+ margin-top: 15px;
+ font-size: 13px;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  background-color: #5dca88;
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+footer {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+div {
+  text-align:center;
+}
+
+.logofooter {
+  margin-top: 20px;
+}
